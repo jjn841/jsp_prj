@@ -108,8 +108,8 @@ pageContext.setAttribute("mDTO", mDTO);
 <h3>마이페이지</h3><!-- enctype="multipart/form-data" -->
 <form action="mypage_process.jsp" method="post" name="frm" id="frm" > 
 <div style="float: left; widows: 130px; height: 200px;" >
-<img src="${ mDTO.profile_img eq 'default.jpg'?"../common/images": uploadURL 
-}/${ mDTO.profile_img }"
+<img src="${ mDTO.profile_img eq 'default.jpg'?"../common/images": uploadURL }/
+		${ mDTO.profile_img }"
 	 style="width: 130px; height: 140px;" id="img">
 	 <br>
 	 <input type="button" value="이미지 선택" id="btnImg" 

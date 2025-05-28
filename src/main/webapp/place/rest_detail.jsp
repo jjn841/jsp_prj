@@ -18,7 +18,6 @@ try{
 PlaceService ps=new PlaceService();
 RestDTO rDTO=ps.searchOneRestaurant(num);
 pageContext.setAttribute("rDTO", rDTO );
-
 %>
 <!DOCTYPE html>
 <html>
